@@ -745,6 +745,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba"
 
 [[package]]
+name = "genfixtures"
+version = "0.14.0"
+dependencies = [
+ "clap",
+ "glob",
+ "itertools 0.13.0",
+ "serde",
+ "serde_yaml",
+ "sqruff-lib",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
